@@ -116,32 +116,9 @@
 					 <?php echo $form->error($model,'fechaApertura'); ?>
 				</div>
 			</div>
-	
-			<div style="text-align: left;">
-				
-					<?php echo CHtml::submitButton('Buscar', array("class"=>"btn btn-primary btn-large")); ?>
-				
-			</div>
 
 			<div class="span12">
-				<div class="span4">
-					<?php echo $form->label($model,'idConvocatoria'); ?>
-					<?php echo $form->textField($model,'idConvocatoria'); ?>
-				</div>
-
-				<div class="span4">
-					<?php echo $form->label($model,'areaTematica'); ?>
-					<?php echo $form->textField($model,'areaTematica'); ?>
-				</div>
-				<div class="span4">
-					<?php echo $form->label($model,'programaNacional'); ?>
-					<?php echo $form->textField($model,'programaNacional'); ?>
-				</div>
-				<div style="left:inherit">
-				
-					<?php echo CHtml::submitButton('Buscar', array("class"=>"btn btn-primary btn-large")); ?>
-				
-			</div>
+				<?php echo CHtml::submitButton('Buscar', array("class"=>"btn btn-primary btn-large")); ?>				
 			</div>
 			<br>
 			<br>
