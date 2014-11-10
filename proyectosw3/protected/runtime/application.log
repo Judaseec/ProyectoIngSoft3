@@ -1679,3 +1679,229 @@ Stack trace:
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
 HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
 ---
+2014/11/10 03:19:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+---
+2014/11/10 03:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+---
+2014/11/10 03:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+---
+2014/11/10 03:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+---
+2014/11/10 03:27:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+---
+2014/11/10 03:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 03:47:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+---
+2014/11/10 03:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 03:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 03:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+---
+2014/11/10 03:53:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 03:55:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+---
+2014/11/10 03:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+---
+2014/11/10 03:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 04:00:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/site/login
+---
+2014/11/10 04:00:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 04:01:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 04:01:58 [error] [exception.CException] exception 'CException' with message 'La propiedad "Rubros"."nombre" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('nombre')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('nombre')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Rubros), 'nombre')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Rubros), 'nombre', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Rubros), 'nombre', Array)
+#5 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\rubros\generales.php(31): CActiveForm->textField(Object(Rubros), 'nombre', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('generales', Array, true)
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\RubrosController.php(153): CController->render('generales', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): RubrosController->actionGenerales()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#22 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---

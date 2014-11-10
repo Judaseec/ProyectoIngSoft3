@@ -32,7 +32,7 @@ class RubrosController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','generales'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -142,6 +142,19 @@ class RubrosController extends Controller
 			'model'=>$model,
 		));
 	}
+
+    public function actionGenerales()
+	{
+		$model=new Rubros;
+		//$dataProvider=new CActiveDataProvider('Rubros');
+		$this->render('generales',array(
+			//'dataProvider'=>$dataProvider,
+			'model'=>$model,
+		));
+	}
+
+
+
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
