@@ -1905,3 +1905,19 @@ Stack trace:
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
 HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
 ---
+2014/11/10 06:15:39 [error] [php] Illegal string offset 'nombre' (C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php:187)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): ConvocatoriasController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ConvocatoriasController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): ConvocatoriasController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): ConvocatoriasController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CWebApplication->run()
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/buscarConvocatoria
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php (187)
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php (13)

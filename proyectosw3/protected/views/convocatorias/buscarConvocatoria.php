@@ -22,7 +22,7 @@
 		<div class="tittle">
 			<h3 style="margin-left:20px;">Busqueda Convocatoria</h3>
 		</div>
-		<form action="Convocatorias/buscar">
+		<!--<form action="ConvocatoriasController/buscar">-->
 			<div class="contenido">
 				<div style="margin-left:20px; margin-top:10px;" class="span8 search-query">
 				<?php echo $form->label($model,'nombre'); ?>
@@ -139,7 +139,7 @@
 				<br>
 				<br>
 			</div>
-		</form>
+		<!--</form>-->
 	</div>
 </div>
 

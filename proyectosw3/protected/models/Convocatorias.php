@@ -156,4 +156,19 @@ class Convocatorias extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public function buscarConvocatoria($array)
+	{
+
+		$consulta = "";
+
+		foreach ($variable as $key => $value) {
+			# code...
+			//if?($value!=null
+			//$consulta+= key + "=" $value;
+			//$consulta += or;
+		}
+		
+		
+	}
 }

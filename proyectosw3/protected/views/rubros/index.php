@@ -10,7 +10,7 @@ $this->menu=array(
 	
 	array('label'=>'Create Rubros', 'url'=>array('create')),
 	array('label'=>'Manage Rubros', 'url'=>array('admin')),
-	array('label'=>'generales','url'=> array('generales'))
+	array('label'=>'generales','url'=> array('Generales'))
 	
 );
 ?>

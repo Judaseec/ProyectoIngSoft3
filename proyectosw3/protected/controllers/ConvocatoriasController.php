@@ -179,10 +179,59 @@ class ConvocatoriasController extends Controller
 			//'dataProvider'=>$dataProvider,
 			'model'=>$model,
 		));
+
+		$array['nombre'] = $_POST['Convocatorias']['nombre'];
+		$array['idConvocatoria'] = $_POST['Convocatorias']['idConvocatoria'];
+		$array['areaTematica'] = $_POST['Convocatorias']['areaTematica'];
+		$array['programaNacional'] = $_POST['Convocatorias']['programaNacional'];
+		$array['entidad'] = $_POST['Convocatorias']['entidad'];
+	
+		$array['fechaApertura'] = $_POST['Convocatorias']['fechaApertura'];
+		$array['fechaCierre'] = $_POST['Convocatorias']['fechaCierre'];
+
+		//array["nombre"] = $_post['nombre']
+		//array["asd"] = $_post['nombreasd']
+		//array["asd"] = $_post['nombresss']
+		//array["asd"] = $_post['nombresss']
+
+		//$data['nombre']=$_post['nombre']
+		//$data['apellido']=$_post['apellido']
+		//$entidad = $_POST['Convocatorias']['entidad'];
+		//echo $entidad;
+		//echo $_POST['Convocatorias']['fechaCierre'];
+		//if (isset($_POST['Convocatorias'])) 
+		//{
+		//	$nombre = $_POST['Convocatorias']['nombre'];
+		//	echo $nombre;
+		//}
+		$model->buscarConvocatoria($array);
 	}
 
 	public function actionBuscar()
 	{
-		
+		$model = new Convocatorias;
+
+		if (isset($_POST['Convocatorias'])) 
+		{
+			$nombre = $_POST['Convocatorias']['nombre'];
+
+		}
+
+		$this -> buscarConvocatoria();
 	}
+
+	/*public function actionRecuperarContrasena() {
+
+        $model = new Usuario;
+
+        if (isset($_POST['Usuario'])) {
+            $correo = $_POST['Usuario']['correo'];
+            $respuesta = $this->enviarRecuperacionCorreo($correo);
+            Yii::app()->user->setFlash('Correo', $respuesta);
+            $this->refresh();
+        }
+        $this->render('recuperar', array(
+            'model' => $model,
+        ));
+    }*/
 }
