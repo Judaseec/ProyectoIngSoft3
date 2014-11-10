@@ -37,11 +37,11 @@
 
 					<div class="span4">
 						<?php echo $form->label($model,'areaTematica'); ?>
-						<?php echo $form->textField($model,'areaTematica'); ?>
+						<?php echo $form->dropDownList($model,'areaTematica',CHtml::listData(AreasTematicas::model()->findAll(),"id","nombre")); ?>
 					</div>
 					<div class="span4">
 						<?php echo $form->label($model,'programaNacional'); ?>
-						<?php echo $form->textField($model,'programaNacional'); ?>
+						<?php echo $form->dropDownList($model,'programaNacional',CHtml::listData(ProgramaNacional::model()->findAll(),"id","nombre")); ?>
 					</div>
 				</div>
 

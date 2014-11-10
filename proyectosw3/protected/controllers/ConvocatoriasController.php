@@ -174,11 +174,17 @@ class ConvocatoriasController extends Controller
 	public function actionBuscarConvocatoria()
 	{
 		$model=new Convocatorias;
-		//$dataProvider=new CActiveDataProvider('Convocatorias');
+		$dataProvider=new CActiveDataProvider('Convocatorias');
 		$this->render('buscarConvocatoria',array(
-			//'dataProvider'=>$dataProvider,
+			'dataProvider'=>$dataProvider,
 			'model'=>$model,
 		));
+
+		if (isset($_POST['Convocatorias'])) 
+		{
+			$areaTematica = $_POST['Convocatorias']['programaNacional'];
+			echo $areaTematica;
+		}
 
 		$array['nombre'] = $_POST['Convocatorias']['nombre'];
 		$array['idConvocatoria'] = $_POST['Convocatorias']['idConvocatoria'];
@@ -204,7 +210,11 @@ class ConvocatoriasController extends Controller
 		//	$nombre = $_POST['Convocatorias']['nombre'];
 		//	echo $nombre;
 		//}
-		$model->buscarConvocatoria($array);
+
+		$respuesta = $model -> buscarConvocatoria($array);
+		//$email = Yii::app()->db->createCommand($respuesta)->queryAll();
+		echo $respuesta;
+		//var_dump($email);
 	}
 
 	public function actionBuscar()
@@ -217,7 +227,7 @@ class ConvocatoriasController extends Controller
 
 		}
 
-		$this -> buscarConvocatoria();
+		
 	}
 
 	/*public function actionRecuperarContrasena() {
