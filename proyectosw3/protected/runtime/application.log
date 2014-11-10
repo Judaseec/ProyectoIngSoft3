@@ -1624,3 +1624,58 @@ Stack trace:
 #23 {main}
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/buscarConvocatoria
 ---
+2014/11/10 01:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Rubros" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Rubros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Rubros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Rubros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Rubros
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 01:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Rubros" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Rubros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Rubros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Rubros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Rubros
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 01:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Rubros" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Rubros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Rubros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Rubros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Rubros
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 02:45:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/11/10 02:45:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "Generales" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Generales')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Generales')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/Generale...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/Generales
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
