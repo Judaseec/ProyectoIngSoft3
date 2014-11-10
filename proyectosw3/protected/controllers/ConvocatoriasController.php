@@ -180,4 +180,9 @@ class ConvocatoriasController extends Controller
 			'model'=>$model,
 		));
 	}
+
+	public function actionBuscar()
+	{
+		
+	}
 }
