@@ -1509,3 +1509,118 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/ProyectoSoftwareIII/proyectosw3/convocatorias/buscarConvocatoria
 ---
+2014/11/09 23:13:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('convocatorias/a...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/admin
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Convocatorias/index
+---
+2014/11/09 23:13:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bdsw3.entidades' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `entidades`.
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\convocatorias\buscarConvocatoria.php (51)
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php (181)
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php (13)
+2014/11/09 23:13:51 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "entidades" definida en la clase active record "Entidades" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Entidades))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\convocatorias\buscarConvocatoria.php(51): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buscarConvocato...', Array, true)
+#9 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php(181): CController->render('buscarConvocato...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ConvocatoriasController->actionBuscarConvocatoria()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buscarConvocato...')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('convocatorias/b...')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/buscarConvocatoria
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/Convocatorias/index
+---
+2014/11/09 23:15:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bdsw3.entidades' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `entidades`.
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\convocatorias\buscarConvocatoria.php (51)
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php (181)
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php (13)
+2014/11/09 23:15:57 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "entidades" definida en la clase active record "Entidades" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Entidades))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\convocatorias\buscarConvocatoria.php(51): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buscarConvocato...', Array, true)
+#9 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php(181): CController->render('buscarConvocato...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ConvocatoriasController->actionBuscarConvocatoria()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buscarConvocato...')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('convocatorias/b...')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/buscarConvocatoria
+HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/site/login
+---
+2014/11/09 23:16:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bdsw3.entidades' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `entidades`.
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\convocatorias\buscarConvocatoria.php (51)
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php (181)
+in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php (13)
+2014/11/09 23:16:09 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "entidades" definida en la clase active record "Entidades" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Entidades))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\convocatorias\buscarConvocatoria.php(51): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buscarConvocato...', Array, true)
+#9 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php(181): CController->render('buscarConvocato...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ConvocatoriasController->actionBuscarConvocatoria()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buscarConvocato...')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('convocatorias/b...')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/buscarConvocatoria
+---

@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Proyecto de sofware 3 modulo Participación en Convocatoria',
+	'name'=>'Participación en Convocatoria',
 	'language'=>'es',
 	'sourceLanguage'=>'en',
 	'charset'=>'utf-8',
