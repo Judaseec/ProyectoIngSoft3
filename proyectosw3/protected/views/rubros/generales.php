@@ -5,7 +5,7 @@
 ?>
 
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'convocatorias-form',
+	//'id'=>'convocatorias-form',
 	'id'=>'rubros-form',
 
 	// Please note: When you enable ajax validation, make sure the corresponding

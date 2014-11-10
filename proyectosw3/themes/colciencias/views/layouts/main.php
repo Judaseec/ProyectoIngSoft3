@@ -45,7 +45,7 @@
             array('label'=>'Convocatorias', 'url'=>array('/Convocatorias/index')),
             array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
             array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
-            array('label'=>'Rubros','url'=>array('/rubros/index')),
+            array('label'=>'Rubros','url'=>array('/Rubros/index')),
 
           ),
         )); ?>
