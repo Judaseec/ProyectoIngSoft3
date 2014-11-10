@@ -215,6 +215,7 @@ class ConvocatoriasController extends Controller
 		//$email = Yii::app()->db->createCommand($respuesta)->queryAll();
 		echo $respuesta;
 		//var_dump($email);
+		
 	}
 
 	public function actionBuscar()
