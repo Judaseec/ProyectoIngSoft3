@@ -3,16 +3,17 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Rubroses',
+	'Rubros',
 );
 
 $this->menu=array(
-	array('label'=>'Rubros', 'url'=>array('Rubros')),
+	
+	array('label'=>'generales','url'=> array('Generales'))
 	
 );
 ?>
 
-<h1>Rubroses</h1>
+<h1>Rubros</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
