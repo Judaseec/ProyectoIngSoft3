@@ -160,15 +160,37 @@ class Convocatorias extends CActiveRecord
 	public function buscarConvocatoria($array)
 	{
 
-		$consulta = "";
+		$consulta = "SELECT nombre, estado FROM Convocatorias";
 
-		foreach ($variable as $key => $value) {
-			# code...
-			//if?($value!=null
-			//$consulta+= key + "=" $value;
-			//$consulta += or;
+		//$sql = 'SELECT * FROM ur_tbl t WHERE t.email_id = '. $id;
+		//$email = Yii::app()->db->createCommand($sql)->queryAll();
+
+		//var_dump($email);
+
+		if ($array!=null) {
+			$cont=0;
+
+			foreach ($array as $key => $value) {
+				# code...
+
+				if ($value !=null and $cont=1) 
+				{
+					$consulta += "WHERE ";
+					$consulta += $key + "=" + $value;
+					$cont++;
+				}
+				if ($value !=null and $cont>1) 
+				{
+					$consulta += "and";
+					$consulta += $key + "=" + $value;
+					$cont++;	
+				}
+				//if?($value!=null
+				//$consulta+= key + "=" $value;
+				//$consulta += or;
+			}
+
 		}
-		
-		
+		return $consulta;
 	}
 }
