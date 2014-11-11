@@ -34,7 +34,7 @@ $this->breadcrumbs=array(
 
 	<div class="row-fluid">
 		
-			<div class="row-fluid">
+			
 		        <div class="span4">
 			
 					<?php echo $form->label($model,'Descripcion'); ?>
@@ -43,8 +43,8 @@ $this->breadcrumbs=array(
 
 					<?php echo $form->label($model,'Justificacion'); ?>
 					<?php echo $form->textField($model,'justificacion'); ?>
-			 </div>
-
+			    </div>
+  
 					<?php echo $form->label($model,'Cantidad'); ?>
 					<?php echo $form->textField($model,'cantidad'); ?>
 				
@@ -54,16 +54,51 @@ $this->breadcrumbs=array(
                 
 					<?php echo $form->label($model,'Valor total'); ?>
 					<?php echo $form->textField($model,'valorTotal'); ?>
-		
-				
-				 
-				  </div>
+	
+			  <div class="row-fluid">
+	
+		 <div class="span9">
+
+<table class="table table-bordered">
+
+	<tr>	
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	</tr>	
+
+
+<tr>	
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	<td>campo</td>
+	
+	</tr>	
+
+</table>
+
+</div>
+</div>  
 
 
 
-				  </div>
-				   <br>
-				<br>
+
+
+				  </div>    
+
+
+	
+	</div>
+			
+ 	</div>
+
+ 			    <br>
 				<br>	
 				<br>
 				<br>
@@ -78,21 +113,7 @@ $this->breadcrumbs=array(
 				<br>
 				<br>
 				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
- </div>
-       
-</div>
+				<br>		       
 </div>
 
 <?php $this->endWidget(); ?>
