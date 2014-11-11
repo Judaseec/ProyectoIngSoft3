@@ -1469,3 +1469,5 @@ span.required{color:#b94a48;}
 .formatoh4{padding-left: 19px;color: #958888; font-weight: bold;}
 .formatoh5{padding-left: 19px;color: #000000; font-weight: bold;}
 .derecha{text-align: right; margin-right: 40px;margin-bottom: 10px;margin-top: 10px;}
+.tabla{border-color: #000000; border: solid 1px;}
+.centrado{text-align: center;}

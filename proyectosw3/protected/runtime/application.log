@@ -2804,22 +2804,33 @@ REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/1
 in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\convocatorias\view.php (52)
 in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ConvocatoriasController.php (56)
 in C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php (13)
+<<<<<<< HEAD
 2014/11/11 21:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+=======
+2014/11/11 21:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+>>>>>>> origin/master
 Stack trace:
 #0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectosw3/the...')
 #1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #2 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/proyectosw3/themes/colciencias/img/logo-colciencias.png
+<<<<<<< HEAD
 HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/site/index
 ---
 2014/11/11 21:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+=======
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/site/index
+---
+2014/11/11 21:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+>>>>>>> origin/master
 Stack trace:
 #0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectosw3/the...')
 #1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #2 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/proyectosw3/themes/colciencias/img/logo-colciencias.png
+<<<<<<< HEAD
 HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/site/index
 ---
 2014/11/11 22:05:40 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`bdsw3`.`rubros`, CONSTRAINT `FK_ConvocatoriaRubros` FOREIGN KEY (`convocatoria`) REFERENCES `convocatorias` (`idConvocatoria`) ON UPDATE CASCADE). La sentencia SQL ejecutada fue: INSERT INTO `rubros` (`id`, `descripcion`, `cantidad`, `valorUnitario`, `justificacion`, `valorTotal`, `entidad`, `contrapartidaEspecie`, `contrapartidaDinero`, `valorFinanciado`, `Total`, `convocatoria`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11).
@@ -2863,4 +2874,49 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/admin
 HTTP_REFERER=http://localhost/ProyectoIngSoft3/proyectosw3/rubros/create
+=======
+---
+2014/11/11 21:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectosw3/the...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/proyectosw3/themes/colciencias/img/logo-colciencias.png
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/site/index
+---
+2014/11/11 21:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectosw3/the...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/proyectosw3/themes/colciencias/img/logo-colciencias.png
+---
+2014/11/11 21:36:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectosw3/the...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/proyectosw3/themes/colciencias/img/logo-colciencias.png
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/site/index
+---
+2014/11/11 21:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectosw3/the...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/proyectosw3/themes/colciencias/img/logo-colciencias.png
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/site/index
+---
+2014/11/11 21:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "proyectosw3/themes/colciencias/img/logo-colciencias.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyectosw3/the...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/proyectosw3/themes/colciencias/img/logo-colciencias.png
+>>>>>>> origin/master
 ---
