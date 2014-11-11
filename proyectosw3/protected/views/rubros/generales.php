@@ -3,15 +3,15 @@
 /* @var $model Rubros */
 /* @var $form CActiveForm */
 
-$this->pageTitle='Rubros '.$model->id;
+$this->pageTitle='Rubros'.$model->id;
 $this->breadcrumbs=array(
-	'Grupos'=>array('index'),
+	'Rubros'=>array('index'),
 	$model->id,
 );?>
 
 <div class="container">
 	<div class="tittle">
-			<h3 style="margin-left:20px;">Rubros</h3>
+			<h3 style="margin-left:20px;">Generales</h3>
 		</div>
 
 <div class="contenido">
@@ -50,37 +50,50 @@ $this->breadcrumbs=array(
 				
 					<?php echo $form->label($model,'Valor unitario'); ?>
 					<?php echo $form->textField($model,'valorUnitario'); ?>
-				
-                
 					<?php echo $form->label($model,'Valor total'); ?>
 					<?php echo $form->textField($model,'valorTotal'); ?>
+				
+					<?php echo CHtml::Button('+', array("class"=>"")); ?>
+
+        
+					
+				
 	
 			  <div class="row-fluid">
 	
 		 <div class="span9">
 
-<table class="table table-bordered">
+<table class="table table-bordered table-hover" >
 
 	<tr>	
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
+		<tr class="centrado">
+		  		<th colspan="3">Gatos Operativos</th>
+		  	</tr>
+	<th>Entidad</td>
+	<th>Cont Especie</th>
+	<th>Cont Dinero </th>
+	<th>Valor Financiado</th>
+	<th>Total</th>
 	</tr>	
-
-<<<<<<< HEAD
 
 <tr>	
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
-	<td>campo</td>
+	<td>Univeridad del Quindio</td>
+	<td>0</td>
+	<td>1200000</td>
+	<td>1400000</td>
+	<td>2600000</td>
 	
 	</tr>	
+
+
+	<tr>	
+	<td>Univeridad la Gran Colombia</td>
+	<td>0</td>
+	<td>800000</td>
+	<td>200000</td>
+	<td>1000000</td>
+	
+	</tr>
 
 </table>
 
@@ -88,57 +101,19 @@ $this->breadcrumbs=array(
 </div>  
 
 
-
-
-
 				  </div>    
-
-
-	
-	</div>
+				</div>
 			
  	</div>
-
- 			    <br>
-=======
 				  </div>
-				   <br>
+				  
 				
  </div>
        
 </div>
-<br>
->>>>>>> origin/master
-				<br>	
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-<<<<<<< HEAD
-				<br>		       
-=======
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
->>>>>>> origin/master
+
+
+				
 </div>
 
 <?php $this->endWidget(); ?>
