@@ -3,7 +3,7 @@
 /* @var $model Productos */
 /* @var $form CActiveForm */
 
-$this->pageTitle='Productos'.$model->idProductos;
+$this->pageTitle='Productos'.$model->id;
 $this->breadcrumbs=array(
 	'productos'=>array('index'),
 	$model->id,

@@ -84,31 +84,46 @@ $this->menu=array(
 	<div class="contenido">
 		<table class="tabla">
 		  <thead class="tabla">
-		  	<tr class="centrado">
-		  		<th colspan="6">Datos convocatoria</th>
-		  	</tr>
-		    <tr>
-		      <th width="100" class="tabla">Estado</th>
-		      <th class="tabla">Tipo</th>
-		      <th width="150" class="tabla">Apertura</th>
-		      <th width="150" class="tabla">Cierre</th>
-		      <th width="200" class="tabla">Publicacion de resultados de evaluacion</th>
-		      <th width="150" class="tabla">Adjudicacion</th>
-		    </tr>
+			  	<tr class="centrado">
+			  		<th colspan="6">Datos convocatoria</th>
+			  	</tr>
+			    <tr>
+				    <th width="100" class="tabla">Estado</th>
+				    <th class="tabla">Tipo</th>
+				    <th width="150" class="tabla">Apertura</th>
+				    <th width="150" class="tabla">Cierre</th>
+				    <th width="200" class="tabla">Publicacion de resultados de evaluacion</th>
+				    <th width="150" class="tabla">Adjudicacion</th>
+			    </tr>
 		    
 		  </thead>
-		  <tbody class="tabla">
+		  <tbody class="tabla colorazul">
 		    <tr>
-		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "estado") ?></td>
-		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "tipo") ?></td>
-		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaApertura") ?></td>
-		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaCierre") ?></td>
-		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaEntregaDocumento") ?></td>
-		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaPublicacionAdjudicacion") ?></td>
+			      	<td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "estado") ?></td>
+			      	<td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "tipo") ?></td>
+			      	<td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaApertura") ?></td>
+			      	<td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaCierre") ?></td>
+			      	<td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaEntregaDocumento") ?></td>
+			      	<td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaPublicacionAdjudicacion") ?></td>
 		    </tr>
 		    
 		  </tbody>
+		  <thead class="tabla">
+			  	<tr class="centrado">
+			  		<th colspan="6">Cuantia</th>
+			  	</tr>
+		    
+		  </thead>
+		  <tbody class="tabla colorazul">
+			    <tr>
+			      	<td colspan="6" class="tabla derecha">$ <?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "cuantia") ?></td>
+			    </tr>
+		    
+		  </tbody>
 		</table>
+		<br>
+
+		
 	</div>
 </div>
 
