@@ -2,9 +2,7 @@
 /* @var $this ProductosController */
 /* @var $dataProvider CActiveDataProvider */
 
-$this->breadcrumbs=array(
-	'Productos',
-);
+$this->breadcrumbs=array('Productos',);
 
 $this->menu=array(
 	array('label'=>'Create Productos', 'url'=>array('create')),
@@ -13,7 +11,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>Productos</h1>
+<h1>Productoses</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
