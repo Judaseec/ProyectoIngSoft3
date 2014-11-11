@@ -5,7 +5,7 @@
 
     <div class="well">
 
-          <img src="../proyectosw3/themes/colciencias/img/logo-colciencias.png" alt="logo">
+          <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/logo-colciencias.png" alt="logo">
           <h2 class="colorletra">Bienvenido</h2>
 
     <div class="row-fluid">

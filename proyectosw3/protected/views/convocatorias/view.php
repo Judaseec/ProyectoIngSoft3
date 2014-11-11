@@ -78,39 +78,38 @@ $this->menu=array(
 			<hr class="tamaniohr">
 		</div>
 
-		<table>
-		  <thead>
+		
+	</div>
+	
+	<div class="contenido">
+		<table class="tabla">
+		  <thead class="tabla">
+		  	<tr class="centrado">
+		  		<th colspan="6">Datos convocatoria</th>
+		  	</tr>
 		    <tr>
-		      <th width="200">Table Header</th>
-		      <th>Table Header</th>
-		      <th width="150">Table Header</th>
-		      <th width="150">Table Header</th>
+		      <th width="100" class="tabla">Estado</th>
+		      <th class="tabla">Tipo</th>
+		      <th width="150" class="tabla">Apertura</th>
+		      <th width="150" class="tabla">Cierre</th>
+		      <th width="200" class="tabla">Publicacion de resultados de evaluacion</th>
+		      <th width="150" class="tabla">Adjudicacion</th>
 		    </tr>
+		    
 		  </thead>
-		  <tbody>
+		  <tbody class="tabla">
 		    <tr>
-		      <td>Content Goes Here</td>
-		      <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
-		      <td>Content Goes Here</td>
-		      <td>Content Goes Here</td>
+		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "estado") ?></td>
+		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "tipo") ?></td>
+		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaApertura") ?></td>
+		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaCierre") ?></td>
+		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaEntregaDocumento") ?></td>
+		      <td class="tabla"><?php echo CHtml::value(Convocatorias::model()->findByPk($model->idConvocatoria), "fechaPublicacionAdjudicacion") ?></td>
 		    </tr>
-		    <tr>
-		      <td>Content Goes Here</td>
-		      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-		      <td>Content Goes Here</td>
-		      <td>Content Goes Here</td>
-		    </tr>
-		    <tr>
-		      <td>Content Goes Here</td>
-		      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-		      <td>Content Goes Here</td>
-		      <td>Content Goes Here</td>
-		    </tr>
+		    
 		  </tbody>
 		</table>
 	</div>
-	
-	
 </div>
 
 <a href="http://localhost:8090/ProyectoIngSoft3/proyectosw3/convocatorias/buscarConvocatoria"><?php echo CHtml::Button('Buscar', array("class"=>"btn btn-primary btn-large")); ?></a>
