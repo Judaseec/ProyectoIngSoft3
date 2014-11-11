@@ -5,8 +5,8 @@
 
     <div class="well">
 
-          <img src="../../proyectosw3/themes/classic/img/logo-colciencias.png" alt="logo">
-          <h2>Bienvenido</h2>
+          <img src="../proyectosw3/themes/colciencias/img/logo-colciencias.png" alt="logo">
+          <h2 class="colorletra">Bienvenido</h2>
 
     <div class="row-fluid">
             <div class="span4" style="text-align:center;">

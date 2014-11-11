@@ -15,7 +15,7 @@ class rubrosTest extends PHPUnit_Framework_TestCase
 	 	$rubros->contrapartidaDinero=2340000;
 	    $rubros->valorFinanciado=120000;
 	    $rubros->Total=12000;
-	    $rubros->convocatoria=1,
+	    $rubros->convocatoria=1;
 
 	 	
 
@@ -24,7 +24,7 @@ class rubrosTest extends PHPUnit_Framework_TestCase
 
 	 public function testBuscar()
 	 {
-	 	$rubros = new Usuarios;
+	 	$rubros = new Rubros;
 	 	$aux = $rubros->findByPk(1);
 	 	$this->assertNotNull($aux);
 	 }

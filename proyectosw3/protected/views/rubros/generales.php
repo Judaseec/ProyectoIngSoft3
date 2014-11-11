@@ -70,6 +70,7 @@ $this->breadcrumbs=array(
 	<td>campo</td>
 	</tr>	
 
+<<<<<<< HEAD
 
 <tr>	
 	<td>campo</td>
@@ -99,6 +100,15 @@ $this->breadcrumbs=array(
  	</div>
 
  			    <br>
+=======
+				  </div>
+				   <br>
+				
+ </div>
+       
+</div>
+<br>
+>>>>>>> origin/master
 				<br>	
 				<br>
 				<br>
@@ -113,7 +123,22 @@ $this->breadcrumbs=array(
 				<br>
 				<br>
 				<br>
+<<<<<<< HEAD
 				<br>		       
+=======
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+>>>>>>> origin/master
 </div>
 
 <?php $this->endWidget(); ?>

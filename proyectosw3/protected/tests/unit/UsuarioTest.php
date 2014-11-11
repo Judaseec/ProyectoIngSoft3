@@ -12,9 +12,10 @@ class UsuarioTest extends PHPUnit_Framework_TestCase
 	 	$usuario->cargo="estudiante";
 	 	$usuario->tipo="1";
 	 	$usuario->usuario="pedro";
-	 	sha1($usuario->contrasenia="pedro");
+	 	$usuario->contrasenia=sha1("pedro");
 
 	 	$this->assertTrue($usuario->save());
+	 	$usuario->delete();
 	 }
 
 	 public function testBuscar()

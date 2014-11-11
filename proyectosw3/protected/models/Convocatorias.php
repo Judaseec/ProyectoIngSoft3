@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 /**
  * This is the model class for table "convocatorias".
@@ -171,26 +171,34 @@ class Convocatorias extends CActiveRecord
 			$cont=0;
 
 			foreach ($array as $key => $value) {
-				# code...
+				
 
-				if ($value !=null and $cont=1) 
+				if ($value !=null and $cont=0) 
 				{
-					$consulta += "WHERE ";
-					$consulta += $key + "=" + $value;
+					$consulta += " WHERE ";
+					$consulta += $key + "='" + $value + "'";
 					$cont++;
 				}
-				if ($value !=null and $cont>1) 
+
+				else if ($value !=null and $cont>=1) 
 				{
-					$consulta += "and";
-					$consulta += $key + "=" + $value;
+					$consulta += " and ";
+					$consulta += $key + "= '" + $value + "'";
 					$cont++;	
 				}
+				//else if ($value !=null and $cont=0) 
+				//{
+				//	$consulta += " WHERE ";
+				//	$consulta += $key + "= '" + $value + "'";
+				//	$cont++;
+				}
+				
 				//if?($value!=null
 				//$consulta+= key + "=" $value;
 				//$consulta += or;
 			}
 
-		}
 		return $consulta;
 	}
 }
+?>
