@@ -63,7 +63,11 @@ $this->breadcrumbs=array(
 
 				  </div>
 				   <br>
-				<br>
+				
+ </div>
+       
+</div>
+<br>
 				<br>	
 				<br>
 				<br>
@@ -90,9 +94,6 @@ $this->breadcrumbs=array(
 				<br>
 				<br>
 				<br>
- </div>
-       
-</div>
 </div>
 
 <?php $this->endWidget(); ?>

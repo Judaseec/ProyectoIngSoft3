@@ -23,7 +23,7 @@ textarea{overflow:auto;vertical-align:top;}
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
 .input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-body{margin:0;font-family:'Varela Round',Arial,Verdana,sans-serif;font-size:14px;line-height:20px;color:#333333;background-color:#ffffff;}
+body{margin:0;font-family:Arial,Verdana,sans-serif;font-size:14px;line-height:20px;color:#333333;background-color:#ffffff;}
 a{color:#764394;text-decoration:none;}
 a:hover{color:#4c2b5f;text-decoration:underline;}
 .img-rounded{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
@@ -120,7 +120,7 @@ a.text-error:hover{color:#953b39;}
 a.text-info:hover{color:#2d6987;}
 .text-success{color:#468847;}
 a.text-success:hover{color:#356635;}
-h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:"Varela Round",Arial,"Times New Roman",Times,serif;font-weight:300;line-height:20px;color:#FFFFFF;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;line-height:1;color:#999999;}
+h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:Arial,"Times New Roman",Times,serif;font-weight:300;line-height:20px;color:#FFFFFF;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;line-height:1;color:#999999;}
 h1,h2,h3{line-height:40px;}
 h1{font-size:38.5px;}
 h2{font-size:31.5px;}
@@ -165,7 +165,7 @@ form{margin:0 0 20px;}
 fieldset{padding:0;margin:0;border:0;}
 legend{display:block;width:100%;padding:0;margin-bottom:20px;font-size:21px;line-height:40px;color:#333333;border:0;border-bottom:1px solid #e5e5e5;}legend small{font-size:15px;color:#999999;}
 label,input,button,select,textarea{font-size:14px;font-weight:normal;line-height:20px;}
-input,button,select,textarea{font-family:'Varela Round',Arial,Verdana,sans-serif;}
+input,button,select,textarea{font-family:Arial,Verdana,sans-serif;}
 label{display:block;margin-bottom:5px;}
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input{display:inline-block;height:20px;padding:4px 6px;margin-bottom:10px;font-size:14px;line-height:20px;color:#555555;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;vertical-align:middle;}
 input,textarea,.uneditable-input{width:206px;}
@@ -1167,7 +1167,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .navbar-form input,.navbar-form select,.navbar-form .btn{display:inline-block;margin-bottom:0;}
 .navbar-form input[type="image"],.navbar-form input[type="checkbox"],.navbar-form input[type="radio"]{margin-top:3px;}
 .navbar-form .input-append,.navbar-form .input-prepend{margin-top:5px;white-space:nowrap;}.navbar-form .input-append input,.navbar-form .input-prepend input{margin-top:0;}
-.navbar-search{position:relative;float:left;margin-top:15px;margin-bottom:0;}.navbar-search .search-query{margin-bottom:0;padding:4px 14px;font-family:'Varela Round',Arial,Verdana,sans-serif;font-size:13px;font-weight:normal;line-height:1;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.navbar-search{position:relative;float:left;margin-top:15px;margin-bottom:0;}.navbar-search .search-query{margin-bottom:0;padding:4px 14px;font-family:Arial,Verdana,sans-serif;font-size:13px;font-weight:normal;line-height:1;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
 .navbar-static-top{position:static;margin-bottom:0;}.navbar-static-top .navbar-inner{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
 .navbar-fixed-top,.navbar-fixed-bottom{position:fixed;right:0;left:0;z-index:1030;margin-bottom:0;}
 .navbar-fixed-top .navbar-inner,.navbar-static-top .navbar-inner{border-width:0 0 1px;}
@@ -1391,8 +1391,8 @@ a.six{color:#f8f8f8;}a.six:hover{color:#d2d2d2;}
 .six-bg{background-color:#f8f8f8;}
 .theme{color:#764394;}
 .nono{font-family:"OpenSans",Menlo,Consolas,"Courier New",monospace;}
-.serif{font-family:"Varela Round",Arial,"Times New Roman",Times,serif;}
-.sans{font-family:'Varela Round',Arial,Verdana,sans-serif;}
+.serif{font-family:Arial,"Times New Roman",Times,serif;}
+.sans{font-family:Arial,Verdana,sans-serif;}
 .pd1{padding-top:15px;padding-bottom:15px;overflow:hidden;}
 .pd2{padding-top:30px;padding-bottom:30px;overflow:hidden;}
 .pd3{padding-top:45px;padding-bottom:45px;overflow:hidden;}
@@ -1463,4 +1463,9 @@ span.required{color:#b94a48;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
 .tittle{min-height:10px;padding:1px;background-color:#24727A;border:1px solid #e3e3e3;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}.well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, 0.15);}
-.contenido{min-height:20px;padding:1px;margin-bottom:20px;background-color:#F0F0F0;border:1px solid #e3e3e3;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}.well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, 0.15);}
+.contenido{min-height:20px;height: 500px;padding:1px;margin-bottom:20px;background-color:#ECECEC;border:1px solid #e3e3e3;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}.well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, 0.15);}
+.colorletra{color: #000000;}
+.tamaniohr{color:#CDCDCD;width: 895px; border-bottom: 1px solid #CDCDCD;}
+.formatoh4{padding-left: 19px;color: #958888; font-weight: bold;}
+.formatoh5{padding-left: 19px;color: #000000; font-weight: bold;}
+.derecha{text-align: right; margin-right: 40px;margin-bottom: 10px;margin-top: 10px;}
