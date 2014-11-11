@@ -158,6 +158,17 @@ class ProductosController extends Controller
 		return $model;
 	}
 
+
+	 public function actionProductos()
+	{
+		$model=new Productos;
+		//$dataProvider=new CActiveDataProvider('Productos');
+		$this->render('productos',array(
+			//'dataProvider'=>$dataProvider,
+			'model'=>$model,
+		));
+	}
+
 	/**
 	 * Performs the AJAX validation.
 	 * @param Productos $model the model to be validated
