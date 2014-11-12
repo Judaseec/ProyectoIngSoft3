@@ -180,11 +180,11 @@ class ConvocatoriasController extends Controller
 			'model'=>$model,
 		));
 
-		//if (isset($_POST['Convocatorias'])) 
-		//{
-		//	$areaTematica = $_POST['Convocatorias']['programaNacional'];
-		//	echo $areaTematica;
-		//}
+		if (isset($_POST['Convocatorias'])) 
+		{
+			$areaTematica = $_POST['Convocatorias']['programaNacional'];
+			echo $areaTematica;
+		}
 
 		//$array['nombre'] = $_POST['Convocatorias']['nombre'];
 		//$array['idConvocatoria'] = $_POST['Convocatorias']['idConvocatoria'];

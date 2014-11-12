@@ -118,7 +118,7 @@
 				</div>
 
 				<div class="span12">
-					<a href="http://localhost:8090/ProyectoIngSoft3/proyectosw3/convocatorias/1"><?php echo CHtml::Button('Buscar', array("class"=>"btn btn-primary btn-large")); ?></a>			
+					<a href=""><?php echo CHtml::Button('Buscar', array("class"=>"btn btn-primary btn-large")); ?></a>			
 				</div>
 				
 				<br>

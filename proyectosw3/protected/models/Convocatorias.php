@@ -175,15 +175,15 @@ class Convocatorias extends CActiveRecord
 
 				if ($value !=null and $cont=0) 
 				{
-					$consulta += " WHERE ";
-					$consulta += $key + "='" + $value + "'";
+					$consulta .= " WHERE ";
+					$consulta .= $key."='".$value."'";
 					$cont++;
 				}
 
 				else if ($value !=null and $cont>=1) 
 				{
-					$consulta += " and ";
-					$consulta += $key + "= '" + $value + "'";
+					$consulta .= " and ";
+					$consulta .= $key."= '".$value."'";
 					$cont++;	
 				}
 				//else if ($value !=null and $cont=0) 
