@@ -160,7 +160,7 @@ class Convocatorias extends CActiveRecord
 	public function buscarConvocatoria($array)
 	{
 
-		$consulta = "SELECT nombre, estado FROM Convocatorias";
+		$consulta = "SELECT idConvocatoria FROM Convocatorias";
 
 		//$sql = 'SELECT * FROM ur_tbl t WHERE t.email_id = '. $id;
 		//$email = Yii::app()->db->createCommand($sql)->queryAll();
@@ -173,7 +173,7 @@ class Convocatorias extends CActiveRecord
 			foreach ($array as $key => $value) {
 				
 
-				if ($value !=null and $cont=0) 
+				if ($value != null and $cont==0) 
 				{
 					$consulta .= " WHERE ";
 					$consulta .= $key."='".$value."'";

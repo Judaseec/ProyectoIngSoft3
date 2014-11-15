@@ -10,7 +10,7 @@
 	// controller action is handling ajax validation correctly.
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
-	'enableAjaxValidation'=>false,
+	
 )); ?>
 
 <?php echo $form->errorSummary($model); 
@@ -118,27 +118,10 @@
 				</div>
 
 				<div class="span12">
-					<a href=""><?php echo CHtml::Button('Buscar', array("class"=>"btn btn-primary btn-large")); ?></a>			
+					<?php echo CHtml::submitButton('Buscar', array("class"=>"btn btn-primary btn-large")); ?>	
 				</div>
 				
-				<br>
-				<br>
-				<br>	
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+				
 			</div>
 		<!--</form>-->
 	</div>

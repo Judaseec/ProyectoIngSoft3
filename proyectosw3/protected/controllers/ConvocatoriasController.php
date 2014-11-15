@@ -175,25 +175,48 @@ class ConvocatoriasController extends Controller
 	{
 		$model=new Convocatorias;
 		$dataProvider=new CActiveDataProvider('Convocatorias');
+
+		if (isset($_POST['Convocatorias'])) 
+		{
+			$this->actionBuscar(); 
+
+		}
+
+		else
 		$this->render('buscarConvocatoria',array(
 			'dataProvider'=>$dataProvider,
 			'model'=>$model,
 		));
+		
+	}
+
+	private function actionBuscar()
+	{
+		$model = new Convocatorias;
 
 		if (isset($_POST['Convocatorias'])) 
 		{
-			$areaTematica = $_POST['Convocatorias']['programaNacional'];
-			echo $areaTematica;
+			$nombre = $_POST['Convocatorias']['nombre'];
+
 		}
 
-		//$array['nombre'] = $_POST['Convocatorias']['nombre'];
-		//$array['idConvocatoria'] = $_POST['Convocatorias']['idConvocatoria'];
-		//$array['areaTematica'] = $_POST['Convocatorias']['areaTematica'];
-		//$array['programaNacional'] = $_POST['Convocatorias']['programaNacional'];
-		//$array['entidad'] = $_POST['Convocatorias']['entidad'];
+		
+		//if (isset($_POST['Convocatorias'])) 
+		//{
+		//	$areaTematica = $_POST['Convocatorias']['programaNacional'];
+		//	echo $areaTematica;
+		//	$array['nombre'] = $_POST['Convocatorias']['nombre'];
+
+		//}
+		
+		$array['nombre'] = $_POST['Convocatorias']['nombre'];
+		$array['idConvocatoria'] = $_POST['Convocatorias']['idConvocatoria'];
+		$array['areaTematica'] = $_POST['Convocatorias']['areaTematica'];
+		$array['programaNacional'] = $_POST['Convocatorias']['programaNacional'];
+		$array['entidad'] = $_POST['Convocatorias']['entidad'];
 	
-		//$array['fechaApertura'] = $_POST['Convocatorias']['fechaApertura'];
-		//$array['fechaCierre'] = $_POST['Convocatorias']['fechaCierre'];
+		$array['fechaApertura'] = $_POST['Convocatorias']['fechaApertura'];
+		$array['fechaCierre'] = $_POST['Convocatorias']['fechaCierre'];
 
 		//array["nombre"] = $_post['nombre']
 		//array["asd"] = $_post['nombreasd']
@@ -211,24 +234,15 @@ class ConvocatoriasController extends Controller
 		//	echo $nombre;
 		//}
 
-		//$respuesta = $model -> buscarConvocatoria($array);
-		//$email = Yii::app()->db->createCommand($respuesta)->queryAll();
+		$respuesta = $model -> buscarConvocatoria($array);
+		$email = Yii::app()->db->createCommand($respuesta)->queryAll();
 		//echo $respuesta;
+		//echo $email[0]["idConvocatoria"];
+		$id = $email[0]["idConvocatoria"];
 		//var_dump($email);
-
-	}
-
-	public function actionBuscar()
-	{
-		$model = new Convocatorias;
-
-		if (isset($_POST['Convocatorias'])) 
-		{
-			$nombre = $_POST['Convocatorias']['nombre'];
-
-		}
-
-		
+		$this->render('view',array(
+			'model'=>$this->loadModel($id),
+		));
 	}
 
 	/*public function actionRecuperarContrasena() {
