@@ -1,30 +1,24 @@
 <?php
 
 /**
- * This is the model class for table "productos".
+ * This is the model class for table "roles".
  *
- * The followings are the available columns in table 'productos':
+ * The followings are the available columns in table 'roles':
  * @property integer $id
  * @property string $nombre
  * @property string $descripcion
- * @property integer $tipologia
- * @property integer $cantidad
- * @property integer $beneficiario
- * @property integer $producto
  *
  * The followings are the available model relations:
- * @property Beneficiarios $beneficiario0
- * @property Producto $producto0
- * @property Tipologias $tipologia0
+ * @property Participantes[] $participantes
  */
-class Productos extends CActiveRecord
+class Roles extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'productos';
+		return 'roles';
 	}
 
 	/**
@@ -35,12 +29,13 @@ class Productos extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, nombre, descripcion, tipologia, cantidad, beneficiario, producto', 'required'),
-			array('id, tipologia, cantidad, beneficiario, producto', 'numerical', 'integerOnly'=>true),
-			array('nombre, descripcion', 'length', 'max'=>60),
+			array('id, nombre, descripcion', 'required'),
+			array('id', 'numerical', 'integerOnly'=>true),
+			array('nombre', 'length', 'max'=>60),
+			array('descripcion', 'length', 'max'=>500),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nombre, descripcion, tipologia, cantidad, beneficiario, producto', 'safe', 'on'=>'search'),
+			array('id, nombre, descripcion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,9 +47,7 @@ class Productos extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'beneficiario0' => array(self::BELONGS_TO, 'Beneficiarios', 'beneficiario'),
-			'producto0' => array(self::BELONGS_TO, 'Producto', 'producto'),
-			'tipologia0' => array(self::BELONGS_TO, 'Tipologias', 'tipologia'),
+			'participantes' => array(self::HAS_MANY, 'Participantes', 'rol'),
 		);
 	}
 
@@ -67,10 +60,6 @@ class Productos extends CActiveRecord
 			'id' => 'ID',
 			'nombre' => 'Nombre',
 			'descripcion' => 'Descripcion',
-			'tipologia' => 'Tipologia',
-			'cantidad' => 'Cantidad',
-			'beneficiario' => 'Beneficiario',
-			'producto' => 'Producto',
 		);
 	}
 
@@ -95,10 +84,6 @@ class Productos extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
-		$criteria->compare('tipologia',$this->tipologia);
-		$criteria->compare('cantidad',$this->cantidad);
-		$criteria->compare('beneficiario',$this->beneficiario);
-		$criteria->compare('producto',$this->producto);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -109,7 +94,7 @@ class Productos extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Productos the static model class
+	 * @return Roles the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

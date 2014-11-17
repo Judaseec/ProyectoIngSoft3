@@ -1,18 +1,18 @@
 <?php
-/* @var $this ProductosController */
+/* @var $this ParticipantesController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Productoses',
+	'Participantes',
 );
 
 $this->menu=array(
-	array('label'=>'Create Productos', 'url'=>array('create')),
-	array('label'=>'Manage Productos', 'url'=>array('admin')),
+	array('label'=>'Create Participantes', 'url'=>array('create')),
+	array('label'=>'Manage Participantes', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Productoses</h1>
+<h1>Participantes</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

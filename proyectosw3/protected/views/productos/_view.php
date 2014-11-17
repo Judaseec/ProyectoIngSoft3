@@ -29,5 +29,9 @@
 	<?php echo CHtml::encode($data->beneficiario); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('producto')); ?>:</b>
+	<?php echo CHtml::encode($data->producto); ?>
+	<br />
+
 
 </div>

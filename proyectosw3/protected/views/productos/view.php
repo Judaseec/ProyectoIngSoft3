@@ -27,5 +27,6 @@ $this->menu=array(
 		'tipologia',
 		'cantidad',
 		'beneficiario',
+		'producto',
 	),
 )); ?>

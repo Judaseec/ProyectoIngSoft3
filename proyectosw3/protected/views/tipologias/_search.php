@@ -1,6 +1,6 @@
 <?php
-/* @var $this ProductosController */
-/* @var $model Productos */
+/* @var $this TipologiasController */
+/* @var $model Tipologias */
 /* @var $form CActiveForm */
 ?>
 
@@ -23,27 +23,7 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'descripcion'); ?>
-		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>60)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'tipologia'); ?>
-		<?php echo $form->textField($model,'tipologia'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'cantidad'); ?>
-		<?php echo $form->textField($model,'cantidad'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'beneficiario'); ?>
-		<?php echo $form->textField($model,'beneficiario'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'producto'); ?>
-		<?php echo $form->textField($model,'producto'); ?>
+		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>500)); ?>
 	</div>
 
 	<div class="row buttons">
