@@ -23,20 +23,18 @@ $this->breadcrumbs=array(
 			
 		        <div class="span4">
 			
-					<?php echo $form->label($model,'Descripcion'); ?>
-					
-				
+					<?php echo $form->label($model,'Tipologia'); ?>
 
-					<?php echo $form->label($model,'Justificacion'); ?>
+					<?php echo $form->label($model,'Producto'); ?>
 				
 			    </div>
   
-					<?php echo $form->label($model,'Cantidad'); ?>
+					<?php echo $form->label($model,'Decripcion'); ?>
 					
 				
-					<?php echo $form->label($model,'Valor unitario'); ?>
+					<?php echo $form->label($model,'Cantidad'); ?>
 				
-					<?php echo $form->label($model,'Valor total'); ?>
+					<?php echo $form->label($model,'Beneficiario'); ?>
 				
 			  <div class="row-fluid">
 	
