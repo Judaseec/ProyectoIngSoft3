@@ -72,7 +72,7 @@ $this->menu=array(
 
 			<div class="derecha span12">
 				<div class="derecha">
-					<?php echo CHtml::Button('Postular', array("class"=>"btn btn-primary btn-large")); ?>
+					<a href="http://localhost:8090/ProyectoIngSoft3/proyectosw3/convocatorias/postularConvocatoria"><?php echo CHtml::Button('Postular', array("class"=>"btn btn-primary btn-large")); ?></a>
 				</div>
 			</div>
 			<hr class="tamaniohr">

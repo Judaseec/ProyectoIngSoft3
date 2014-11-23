@@ -32,7 +32,7 @@ class ConvocatoriasController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','buscarConvocatoria'),
+				'actions'=>array('create','update','buscarConvocatoria','postularConvocatoria'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -51,6 +51,9 @@ class ConvocatoriasController extends Controller
 	 */
 	public function actionView($id)
 	{
+
+		$this->actionPostularConvocatoria();
+
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -259,4 +262,25 @@ class ConvocatoriasController extends Controller
             'model' => $model,
         ));
     }*/
+
+    public function actionPostularConvocatoria()
+	{
+		$model=new Convocatorias;
+		$dataProvider=new CActiveDataProvider('Convocatorias');
+
+		
+		$this->render('postularConvocatoria',array(
+			'dataProvider'=>$dataProvider,
+			'model'=>$model,
+		));
+		
+	}
+
+	public function actionPostular()
+	{
+		$this->render('postularConvocatoria',array(
+			'dataProvider'=>$dataProvider,
+			'model'=>$model,
+		));
+	}
 }
