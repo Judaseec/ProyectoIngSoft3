@@ -5,9 +5,9 @@
 
 
 
-<div class="contenido">
+<div class="contenido" style="height: 250px;">
 	
-	<div class="span12">
+	<div class="span12" style="margin-left:20px; margin-top:20px;">
 		<div class="span2">
 			<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
 
@@ -18,32 +18,62 @@
 		<br />
 	</div>
 
-	
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
-	<?php echo CHtml::encode($data->descripcion); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('cantidad')); ?>:</b>
-	<?php echo CHtml::encode($data->cantidad); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('valorUnitario')); ?>:</b>
-	<?php echo CHtml::encode($data->valorUnitario); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('justificacion')); ?>:</b>
-	<?php echo CHtml::encode($data->justificacion); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('valorTotal')); ?>:</b>
-	<?php echo CHtml::encode($data->valorTotal); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('entidad')); ?>:</b>
-	<?php echo CHtml::encode($data->entidad); ?>
-	<br />
-
+	<div class="span12" style="margin-left:20px;">	
+		<div class="span2">
+		<b>Descripción:</b>
+		<?php /* echo CHtml::encode($data->getAttributeLabel('descripcion')); */ ?>
+		</div>
+		<div class="span2">
+		<?php echo CHtml::encode($data->descripcion); ?>
+		</div>
+		<br />
+	</div>
+	<div class="span12" style="margin-left:20px;">
+		<div class="span2">
+		<b><?php echo CHtml::encode($data->getAttributeLabel('cantidad')); ?>:</b>
+		</div>
+		<div class="span2">
+		<?php echo CHtml::encode($data->cantidad); ?>
+		</div>
+		<br />
+	</div>
+	<div class="span12" style="margin-left:20px;">
+		<div class="span2">
+		<b><?php echo CHtml::encode($data->getAttributeLabel('valor Unitario')); ?>:</b>
+		</div>
+		<div class="span2">
+		<?php echo CHtml::encode($data->valorUnitario); ?>
+		</div>
+		<br />
+	</div>
+	<div class="span12" style="margin-left:20px;">
+		<div class="span2">
+		<b>Justificación:</b>
+		<?php /* echo CHtml::encode($data->getAttributeLabel('justificacion')); */ ?>
+		</div>
+		<div class="span2">
+		<?php echo CHtml::encode($data->justificacion); ?>
+		</div>
+		<br />
+	</div>
+	<div class="span12" style="margin-left:20px;">
+		<div class="span2">
+		<b><?php echo CHtml::encode($data->getAttributeLabel('valor Total')); ?>:</b>
+		</div>
+		<div class="span2">
+		<?php echo CHtml::encode($data->valorTotal); ?>
+		</div>
+		<br />
+	</div>
+	<div class="span12" style="margin-left:20px;">
+		<div class="span2">
+		<b><?php echo CHtml::encode($data->getAttributeLabel('entidad')); ?>:</b>
+		</div>
+		<div class="span2">
+		<?php echo CHtml::encode($data->entidad); ?>
+		</div>
+		<br />
+	</div>
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('contrapartidaEspecie')); ?>:</b>
 	<?php echo CHtml::encode($data->contrapartidaEspecie); ?>
