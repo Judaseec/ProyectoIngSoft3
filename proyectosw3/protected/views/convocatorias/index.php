@@ -3,17 +3,17 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Convocatoriases',
+	'Convocatorias',
 );
 
 $this->menu=array(
-	array('label'=>'Create Convocatorias', 'url'=>array('create')),
-	array('label'=>'Manage Convocatorias', 'url'=>array('admin')),
-	array('label'=>'Busqueda', 'url'=>array('buscarConvocatoria')),
+	array('label'=>'Crear Convocatorias', 'url'=>array('create')),
+	array('label'=>'Administrar Convocatorias', 'url'=>array('admin')),
+	array('label'=>'Buscar Convocatoria', 'url'=>array('buscarConvocatoria')),
 );
 ?>
 
-<h1>Convocatoriases</h1>
+<h1>Convocatoria</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

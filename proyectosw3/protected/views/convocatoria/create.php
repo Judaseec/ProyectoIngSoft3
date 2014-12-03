@@ -13,6 +13,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Convocatoria</h1>
+<h1>Crear Convocatoria</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
