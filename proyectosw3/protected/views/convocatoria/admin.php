@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Convocatoria', 'url'=>array('index')),
-	array('label'=>'Create Convocatoria', 'url'=>array('create')),
+	array('label'=>'Lista Convocatoria', 'url'=>array('index')),
+	array('label'=>'Crear Convocatoria', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "

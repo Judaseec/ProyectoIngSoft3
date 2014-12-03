@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Participantes', 'url'=>array('index')),
-	array('label'=>'Create Participantes', 'url'=>array('create')),
+	array('label'=>'Lista Participantes', 'url'=>array('index')),
+	array('label'=>'Crear Participantes', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
