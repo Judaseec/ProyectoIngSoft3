@@ -3,11 +3,22 @@
 /* @var $data Rubros */
 ?>
 
-<div class="view">
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
-	<br />
+
+<div class="contenido">
+	
+	<div class="span12">
+		<div class="span2">
+			<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
+
+		</div>
+		<div class="span2">
+			<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
+		</div>
+		<br />
+	</div>
+
+	
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
 	<?php echo CHtml::encode($data->descripcion); ?>
