@@ -3,16 +3,16 @@
 /* @var $model Rubros */
 
 $this->breadcrumbs=array(
-	'Rubroses'=>array('index'),
-	'Create',
+	'Rubros'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Rubros', 'url'=>array('index')),
-	array('label'=>'Manage Rubros', 'url'=>array('admin')),
+	array('label'=>'Listar Rubros', 'url'=>array('index')),
+	array('label'=>'Administrar Rubros', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Rubros</h1>
+<h1>Crear Rubros</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
