@@ -40,19 +40,19 @@
       ),
     )); ?>
       
-    <?php echo $form->labelEx($model,'username'); ?>
-    <?php echo $form->textField($model,'username',array("class"=>"input-block-level","placeholder"=>"Username")); ?>
+    <?php /* echo $form->labelEx($model,'nombre'); ?>
+    <?php echo $form->textField($model,'username',array("class"=>"input-block-level","placeholder"=>"Nombre")); ?>
     <?php echo $form->error($model,'username'); ?>
 
-    <?php echo $form->labelEx($model,'password'); ?>
-    <?php echo $form->passwordField($model,'password',array("class"=>"input-block-level","placeholder"=>"Password")); ?>
+    <?php echo $form->labelEx($model,'contraseña'); ?>
+    <?php echo $form->passwordField($model,'password',array("class"=>"input-block-level","placeholder"=>"Contraseña")); ?>
     <?php echo $form->error($model,'password'); ?>
   <br>
-    <?php echo $form->checkBox($model,'rememberMe'); ?>
+    <?php echo $form->checkBox($model,''); ?>
     <?php echo $form->label($model,'rememberMe'); ?>
     <?php echo $form->error($model,'rememberMe'); ?>
 
-    <?php echo CHtml::submitButton('Login',array("class"=>"btn btn-primary pull-right")); ?>
+    <?php echo CHtml::submitButton('Ingresar',array("class"=>"btn btn-primary pull-right")); */ ?>
 <?php $this->endWidget(); ?>
 
   </div>

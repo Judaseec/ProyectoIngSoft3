@@ -5,13 +5,13 @@
 
 $this->pageTitle=Yii::app()->name . ' - Login';
 $this->breadcrumbs=array(
-	'Login',
+	'Registro',
 );
 ?>
 
-<h1>Login</h1>
+<h1>Iniciar Sesión</h1>
 
-<p>Please fill out the following form with your login credentials:</p>
+<p>Por favor complete el siguiente formulario con sus datos de acceso:</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -22,31 +22,31 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los datos con <span class="required">*</span> son requeridos.</p>
 
 	<div>
-		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->labelEx($model,'Nombre'); ?>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div>
-		<?php echo $form->labelEx($model,'password'); ?>
+		<?php echo $form->labelEx($model,'contraseña'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
-			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
+			
 		</p>
 	</div>
 
 	<div class="rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'rememberMe'); ?>
+		<?php echo $form->label($model,'Recordar Contraseña'); ?>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 
 	<div class="buttons">
-		<?php echo CHtml::submitButton('Login', array("class"=>"btn btn-primary btn-large")); ?>
+		<?php echo CHtml::submitButton('Ingresar', array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

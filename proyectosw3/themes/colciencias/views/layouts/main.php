@@ -33,18 +33,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="#">Participacion en Convocatoria</a>
+      <a class="brand" href="#">Participación en Convocatoria</a>
 
       <div class="nav-collapse collapse pull-right">
         <?php $this->widget('zii.widgets.CMenu',array(
           'htmlOptions'=>array("class"=>"nav"),
           'items'=>array(
-            array('label'=>'Home', 'url'=>array('/site/index')),
+            array('label'=>'Inicio', 'url'=>array('/site/index')),
             //array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
             //array('label'=>'Contact', 'url'=>array('/site/contact')),
             array('label'=>'Convocatorias', 'url'=>array('/Convocatorias/index')),
-            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
+            array('label'=>'Iniciar Sesión', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Sesión ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
             array('label'=>'Rubros','url'=>array('/Rubros/index')),
             array('label'=>'Productos','url'=>array('/productos/index')),
 

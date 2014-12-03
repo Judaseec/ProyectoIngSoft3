@@ -4565,8 +4565,174 @@ Stack trace:
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/productos/index
 HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/convocatorias/index
 ---
+<<<<<<< HEAD
+2014/12/03 07:37:56 [error] [exception.CException] exception 'CException' with message 'La propiedad "LoginForm"."" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(LoginForm), '')
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(LoginForm), '', Array)
+#3 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\themes\colciencias\views\site\index.php(51): CActiveForm->checkBox(Object(LoginForm), '')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\SiteController.php(36): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/
+---
+2014/12/03 07:38:00 [error] [exception.CException] exception 'CException' with message 'La propiedad "LoginForm"."" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(LoginForm), '')
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(LoginForm), '', Array)
+#3 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\themes\colciencias\views\site\index.php(51): CActiveForm->checkBox(Object(LoginForm), '')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\SiteController.php(36): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/
+---
+2014/12/03 07:38:32 [error] [exception.CException] exception 'CException' with message 'La propiedad "LoginForm"."" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(LoginForm), '')
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(LoginForm), '', Array)
+#3 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\themes\colciencias\views\site\index.php(51): CActiveForm->checkBox(Object(LoginForm), '')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\SiteController.php(36): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/site/index
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/convocatorias/index
+---
+=======
 >>>>>>> origin/master
+>>>>>>> origin/master
+<<<<<<< HEAD
 2014/12/03 09:29:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+=======
+2014/12/03 08:34:37 [error] [exception.CException] exception 'CException' with message 'La propiedad "LoginForm"."Guardar contraseña" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('Guardar contras...')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(LoginForm), 'Guardar contras...')
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(LoginForm), 'Guardar contras...', Array)
+#3 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\site\login.php(43): CActiveForm->checkBox(Object(LoginForm), 'Guardar contras...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\SiteController.php(102): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/site/login
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/12/03 08:34:44 [error] [exception.CException] exception 'CException' with message 'La propiedad "LoginForm"."Guardar contraseña" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('Guardar contras...')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(LoginForm), 'Guardar contras...')
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(LoginForm), 'Guardar contras...', Array)
+#3 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\site\login.php(43): CActiveForm->checkBox(Object(LoginForm), 'Guardar contras...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\SiteController.php(102): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/site/login
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/12/03 08:35:30 [error] [exception.CException] exception 'CException' with message 'La propiedad "LoginForm"."Guardar contraseña" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('Guardar contras...')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(LoginForm), 'Guardar contras...')
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(LoginForm), 'Guardar contras...', Array)
+#3 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\site\login.php(43): CActiveForm->checkBox(Object(LoginForm), 'Guardar contras...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\SiteController.php(102): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/site/login
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/12/03 08:35:36 [error] [exception.CException] exception 'CException' with message 'La propiedad "LoginForm"."Guardar contraseña" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('Guardar contras...')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(LoginForm), 'Guardar contras...')
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(LoginForm), 'Guardar contras...', Array)
+#3 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\site\login.php(43): CActiveForm->checkBox(Object(LoginForm), 'Guardar contras...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\SiteController.php(102): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/site/login
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/Convocatorias/index
+---
+2014/12/03 09:16:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+>>>>>>> origin/master
 Stack trace:
 #0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -4576,10 +4742,124 @@ Stack trace:
 #5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
 #6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
 #7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+<<<<<<< HEAD
 #8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rubros/admin')
 #9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
 #11 {main}
 REQUEST_URI=/ProyectoIngSoft3/proyectosw3/rubros/admin
 HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/rubros/index
+=======
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('convocatorias/a...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/convocatorias/admin
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/convocatorias/create
+---
+2014/12/03 09:17:49 [error] [exception.CException] exception 'CException' with message 'La propiedad "Productos"."producto" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('producto')
+#1 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\productos\_view.php(33): CActiveRecord->__get('producto')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(130): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, false)
+#4 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\productos\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ProductosController.php(128): CController->render('index', Array)
+#16 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionIndex()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/index')
+#27 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/productos/index
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/12/03 09:19:26 [error] [exception.CException] exception 'CException' with message 'La propiedad "Productos"."producto" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('producto')
+#1 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\productos\_view.php(33): CActiveRecord->__get('producto')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(130): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, false)
+#4 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\productos\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ProductosController.php(128): CController->render('index', Array)
+#16 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionIndex()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/index')
+#27 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/productos/index
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/Rubros/index
+---
+2014/12/03 09:24:57 [error] [exception.CException] exception 'CException' with message 'La propiedad "Productos"."producto" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('producto')
+#1 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\productos\_view.php(33): CActiveRecord->__get('producto')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(130): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, false)
+#4 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\views\productos\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\protected\controllers\ProductosController.php(128): CController->render('index', Array)
+#16 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductosController->actionIndex()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('productos/index')
+#27 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\ProyectoIngSoft3\proyectosw3\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/ProyectoIngSoft3/proyectosw3/productos/index
+HTTP_REFERER=http://localhost:8090/ProyectoIngSoft3/proyectosw3/site/login
+>>>>>>> origin/master
 ---
